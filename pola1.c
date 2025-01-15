@@ -12,7 +12,7 @@ void printStar(int n, int i, int j){
         printStar(n, i + 1, 0);
         return;
     }
-    if (j <= i) printf("*");
+    if (j <= i) printf("* ");
     else printf(" ");
     printStar(n, i, j + 1);
 }
