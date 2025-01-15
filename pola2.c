@@ -1,11 +1,4 @@
 // desc: program untuk membuat pola segitiga siku siku perkalian 2 setiap tabel
-// contoh input: 5
-// contoh output:
-// 1
-// 2 1
-// 4 2 1
-// 8 4 2 1
-// 16 8 4 2 1
 // author: vermilion10
 // date: 16 januari 2025
 
