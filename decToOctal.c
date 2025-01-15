@@ -1,6 +1,4 @@
 // desc: program untuk mengkonversi bilangan desimal ke bilangan oktal
-// spesifikasi input: satu baris berisi satu buah bilangan bulat positif X (0 <= X <= 2^31 -1)
-// spesifikasi output: satu baris berisi representasi X dalam bilangan oktal tanpa awalan nol 
 // author: vermilion10
 // date: 14 januari 2025
 
