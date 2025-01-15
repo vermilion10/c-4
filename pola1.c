@@ -1,4 +1,10 @@
 // desc: program untuk membuat pola bintang tangga
+// contoh input: 5
+// contoh output: *
+//                * *
+//                * * *
+//                * * * *
+//                * * * * *
 // author: vermilion10
 // date: 15 januari 2025
 
