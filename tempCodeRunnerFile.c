@@ -1,0 +1,1 @@
+return 1 + countTanpa4(x + 1, y);
