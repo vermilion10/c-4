@@ -7,14 +7,18 @@
 #include <stdio.h>
 
 //fungsi rekursif untuk mengkonversi biner ke desimal
-int binerToDec(int n){
+// int binerToDec(int n){
+//     if (n == 0) return 0;
+//     return (n % 10) + 2 * binerToDec(n / 10);
+// }
+int binerToDec(int n, int pangkat){
     if (n == 0) return 0;
-    return (n % 10) + 2 * binerToDec(n / 10);
+    return (n % 10) * (1 << pangkat) + binerToDec(n / 10, pangkat + 1);
 }
 
 int main(){
-    int n;
+    int n,;
     scanf("%d", &n);
-    printf("%d", binerToDec(n));
+    printf("%d", binerToDec(n, 0));
     return 0;
 }
